@@ -15,6 +15,7 @@ public class UtilDate {
 	/*sample format*/
 	public static final String TIME_24 = "HH:mm:ss";
 	public static final String TIME_12 = "hh:mm:ss a";
+	public static final String BIRTH_DATE_FORMAT = "mm-dd-yyyy";
 	
 	public static Calendar dateToCalendar(Date date){
 		Calendar cal = Calendar.getInstance();
